@@ -1,0 +1,126 @@
+.simple{
+  // margin: 100px 0;
+
+  &__title{
+    margin: 0;
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #000000;
+  }
+
+  &__desc{
+    margin: 0;
+    margin-top: 16px;
+    margin-bottom: 80px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 155%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #000000;
+  }
+
+  &__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__box{
+    width: 405px;
+    padding: 30px;
+    border: 0.97561px solid transparent;
+    margin-right: 32px;
+  }
+
+  &__box:last-child{
+    margin-right: 0;
+  }
+
+  &__box:hover{
+    border: 0.97561px solid #FF007A;
+    border-radius: 8px; 
+  }
+
+  &__sumTitle{
+    margin: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #211F25;
+  }
+
+  &__sum{
+    margin: 0;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 120%;
+    text-align: center;
+    color: #211F25;
+  }
+
+  &__text{
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 155%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #3D3A41;
+  }
+
+  &__span{
+    margin-left: 19px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 155%;
+    letter-spacing: 0.02em;
+    color: #3D3A41;
+  }
+
+  &__btn{
+    width: 100%;
+    padding: 17px 0;
+    border: 1px solid #FF007A;
+    filter: drop-shadow(0px 1px 2px rgba(16, 24, 40, 0.05));
+    border-radius: 32px;
+    background-color: transparent;
+    color:#FF007A;
+    transition: 1s ease-in-out;
+  }
+
+  &__btn:active{
+    color: #fff;
+    background-color: #FF007A;
+  }
+}
+
+ul{
+  margin: 39px 0;
+}
+
+li{
+  margin-bottom: 16px;
+}
+
+li:last-child{
+  margin-bottom: 0;
+}
+
+.padding{
+  padding: 100px 0;
+}
